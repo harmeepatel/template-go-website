@@ -1,0 +1,12 @@
+root = "."
+tmp_dir = ".air_dev"
+
+[build]
+cmd = "DEPLOY_PLATFORM=\"dev\" go build -o ./tmp/main ."
+include_ext = ["go", "templ", "html", "css"]
+exclude_dir = ["assets", "tmp", "testdata", "vendor", "web/node_modules"]
+log = "air.dev.log"
+
+[log]
+time = false
+main_only = false

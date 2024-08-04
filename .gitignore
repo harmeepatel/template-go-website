@@ -1,0 +1,12 @@
+.DS_Store
+
+bin/
+tmp/
+
+bun.lockb
+*.fiber.gz
+
+node_modules/
+package-lock.json
+
+.env*
