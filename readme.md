@@ -2,7 +2,7 @@
 
 ## Prerequisite
 Install air to run a perpetual server : [☁ Air](https://github.com/cosmtrek/air)\
-Templ compiler                                  : [templ](https://templ.guide/)\
+Templ compiler                                 : [templ](https://templ.guide/)\
 NodeJs                                               : [nodejs](https://nodejs.org/en)\
 Make                                                   : [make](https://www.gnu.org/software/make/)
 
