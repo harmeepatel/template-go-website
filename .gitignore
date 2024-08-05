@@ -1,5 +1,9 @@
 .DS_Store
 
+.air/
+.air_dev/
+.air_test/
+
 bin/
 tmp/
 
