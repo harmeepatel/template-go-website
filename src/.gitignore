@@ -1,0 +1,8 @@
+.air/
+.air_dev/
+
+tmp/
+bin/
+
+# not used but added it just in case
+*.fiber.gz

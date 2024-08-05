@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-    content: ["./**/*.html", "./**/*.templ", "./**/*.go", "./static/**/*.js"],
+    content: ["./**/*.{go, templ, js, html}"],
     theme: {
     },
     plugins: [

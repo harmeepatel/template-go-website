@@ -1,10 +1,10 @@
 # Template layout for simple go webserver/website
 
 ## Prerequisite
-Install air to run a perpetual server : [☁ Air](https://github.com/cosmtrek/air)\
-Templ compiler                                 : [templ](https://templ.guide/)\
-NodeJs                                               : [nodejs](https://nodejs.org/en)\
-Make                                                   : [make](https://www.gnu.org/software/make/)
+[Air](https://github.com/cosmtrek/air)\
+[Templ](https://templ.guide/)\
+[NodeJs](https://nodejs.org/en)\
+[Make](https://www.gnu.org/software/make/)
 
 ## Running
 > [!WARNING]  

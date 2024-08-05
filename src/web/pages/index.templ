@@ -1,29 +1,27 @@
 package pages;
 
-import "makeyourcareer.net/web/layouts"
+import "github.com/harmeepatel/template-go-website/web/layouts"
+
+templ section(number rune, color string, text string) {
+	<h1 class={ color + " p-16 mb-12 text-3xl lg:text-6xl h-dvh rounded-3xl" }>
+		{ text } SECTION { string(number) }
+	</h1>
+}
 
 templ Index(title string) {
-@layouts.Base(title) {
-<main id="main" class="p-8 3xl:p-0 m-auto max-w-screen-2x lorder-last">
-    <h1 class="bg-red-50 text-3xl lg:text-6xl h-dvh">
-        SECTION 1
-    </h1>
-    <h1 class="bg-blue-50 text-3xl lg:text-6xl h-dvh">
-        SECTION 2
-    </h1>
-</main>
-}
+	@layouts.Base(title) {
+		<main id="main" class="p-8 3xl:p-0 m-auto max-w-screen-2xl lorder-last">
+			@section(1, "bg-red-50", "")
+			@section(2, "bg-blue-50", "")
+		</main>
+	}
 }
 
 templ ExtraPage(title string, text string) {
-@layouts.Base(title) {
-<main id="main" class="p-8 3xl:p-0 m-auto max-w-screen-2x lorder-last">
-    <h1 class="bg-red-50 text-3xl lg:text-6xl h-dvh">
-        { text } SECTION 1
-    </h1>
-    <h1 class="bg-blue-50 text-3xl lg:text-6xl h-dvh">
-        { text } SECTION 2
-    </h1>
-</main>
-}
+	@layouts.Base(title) {
+		<main id="main" class="p-8 3xl:p-0 m-auto max-w-screen-2xl lorder-last rounded-xl">
+			@section(1, "bg-red-50", text)
+			@section(2, "bg-blue-50", text)
+		</main>
+	}
 }

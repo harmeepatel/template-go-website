@@ -1,25 +1,15 @@
 package app
 
-// 	app.Static("/static/", "./web/static/", fiber.Static{
-// 		Compress:      true,
-// 		ByteRange:     true,
-// 		Browse:        true,
-// 		Index:         "./web/static/",
-// 		CacheDuration: 7 * 24 * time.Hour,
-// 		MaxAge:        3600,
-// 	})
 import (
 	"errors"
 	"log"
 	"net/http"
 
-	handler "makeyourcareer.net/app/handlers"
+	handler "github.com/harmeepatel/template-go-website/app/handlers"
 )
 
-// add database
-// const dev_db = "./src/data/test.db"
 type app struct {
-	server http.Server
+    server http.Server
 }
 
 func NewApp(address string) (a *app) {

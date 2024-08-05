@@ -5,24 +5,19 @@ import (
 	"os"
 
 	"github.com/joho/godotenv"
-	"makeyourcareer.net/app"
+	"github.com/harmeepatel/template-go-website/app"
 )
 
 func init() {
     const env = "../.env"
 	switch depenv := os.Getenv("DEPLOY_PLATFORM"); depenv {
 	case "prod":
-		log.Println("-- Production evironment --")
+		log.Println("-- PRODUCTION --")
 		if godotenv.Load(env) != nil {
 			log.Fatal(".env not found")
 		}
-	case "test":
-		log.Println("-- Testing evironment --")
-		if godotenv.Load(env + ".test") != nil {
-			log.Fatal(".env.test not found")
-		}
 	default:
-		log.Println("-- dev --")
+		log.Println("-- DEV --")
 		if godotenv.Load(env + ".dev") != nil {
 			log.Fatal(".env.dev not found")
 		}

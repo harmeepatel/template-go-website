@@ -2,7 +2,7 @@
     "name": "ii",
     "version": "1.0.0",
     "description": "web pages for infinity immigration website",
-    "main": "/static/js/index.js",
+    "main": "",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },

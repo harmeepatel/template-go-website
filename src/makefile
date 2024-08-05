@@ -1,7 +1,5 @@
 go-prod: 
 	DEPLOY_PLATFORM="prod" air -c .air.toml
-go-test: 
-	DEPLOY_PLATFORM="test" air -c .air.test.toml
 go-dev: 
 	DEPLOY_PLATFORM="dev" air -c .air.dev.toml
 

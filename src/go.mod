@@ -1,4 +1,4 @@
-module makeyourcareer.net
+module github.com/harmeepatel/template-go-website
 
 go 1.22.4
 

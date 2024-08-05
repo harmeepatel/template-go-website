@@ -1,16 +1,3 @@
 .DS_Store
 
-.air/
-.air_dev/
-.air_test/
-
-bin/
-tmp/
-
-bun.lockb
-*.fiber.gz
-
-node_modules/
-package-lock.json
-
 .env*

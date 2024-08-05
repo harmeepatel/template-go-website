@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/a-h/templ"
-	"makeyourcareer.net/web/pages"
+	"github.com/harmeepatel/template-go-website/web/pages"
 )
 
 func Index() http.Handler {
