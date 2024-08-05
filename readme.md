@@ -1,13 +1,14 @@
-# MakeYourCareer
+# Template layout for simple go webserver/website
 
 ## Prerequisite
-Install air to run a perpetual server : [☁ Air](https://github.com/cosmtrek/air)\
-Templ compiler                        : [templ](https://templ.guide/)\
-NodeJs                                : [nodejs](https://nodejs.org/en)\
-Make                                  : [make](https://www.gnu.org/software/make/)
+Install air to run a perpetual server.: [☁ Air](https://github.com/cosmtrek/air)\
+Templ compiler........................: [templ](https://templ.guide/)\
+NodeJs................................: [nodejs](https://nodejs.org/en)\
+Make..................................: [make](https://www.gnu.org/software/make/)
 
 ## Running
-NOTE: ```make docker-run``` in the root makefile does not work for now.
+> [!WARNING]  
+> ```make docker-run``` in the root makefile does not work for now.
 
 Install npm dependencies (tailwind) and start watching the css file:
 ```zsh
